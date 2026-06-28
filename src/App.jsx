@@ -13,11 +13,9 @@ function App() {
         <div className="title">
           <img src={titleImg} width="600" height="133" alt="Tennis Clash" />
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
+        <div id="previewSection">
+          <h1>Preview</h1>
+
         </div>
         <button
           type="button"
@@ -35,7 +33,7 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
+          <h2>What It's All About</h2>
           <p>Your questions, answered</p>
           <ul>
             <li>
@@ -56,7 +54,7 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Connect with us</h2>
+          <h2>Hey, It's Me, The Creator</h2>
           <p>Join the Vite community</p>
           <ul>
             <li>

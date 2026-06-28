@@ -18,11 +18,10 @@
 }
 
 .title {
-  position: relative;
-  margin: auto;
-  @media (max-width: 700px) {
-      scale: 0.5;
-  }
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
 }
 
 #center {

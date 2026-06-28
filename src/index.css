@@ -52,6 +52,7 @@
 
 body {
   margin: 0;
+  min-width: 700px;
 }
 
 #root {
@@ -68,19 +69,20 @@ body {
 
 h1,
 h2 {
-  font-family: var(--heading);
+  font-family: 'Comic Sans MS';
   font-weight: 500;
   color: var(--text-h);
 }
 
 h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
     font-size: 36px;
-    margin: 20px 0;
-  }
+    letter-spacing: -1.68px;
+    margin-top: -370px;
+
+    @media (max-width: 1024px) {
+        font-size: 32px;
+        margin-top: -170px;
+    }
 }
 h2 {
   font-size: 24px;
