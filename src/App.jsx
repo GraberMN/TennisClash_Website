@@ -2,10 +2,33 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import titleImg from './assets/title.png'
+import titleScreenImg from './assets/titleScreenSS.png'
+import characterSelectImg from './assets/characterSelectSS.png'
+import gameScreen1Img from './assets/gameScreen1SS.png'
+import gameScreen2Img from './assets/gameScreen2SS.png'
+import optionsPageImg from './assets/optionsPageSS.png'
+import rightButtonImg from './assets/rightButton.png'
+import leftButtonImg from './assets/leftButton.png'
 import './App.css'
 
+function nextPreviewImage(isRight, idList) {
+    if (isRight) {
+        document.getElementById(idList[0]).style.zIndex = "4";
+        let temp = idList.shift();
+        idList.push(temp);
+        document.getElementById(idList[0]).style.zIndex = "5";
+    }
+    else {
+        document.getElementById(idList[0]).style.zIndex = "4";
+        let temp = idList.pop();
+        idList.unshift(temp);
+        document.getElementById(idList[0]).style.zIndex = "5";
+    }
+}
+
 function App() {
-  const [count, setCount] = useState(0)
+    const idList = ["titleScreen", "characterSelect", "gameScreen1", "gameScreen2", "optionsPage"];
+    const [count, setCount] = useState(0);
 
   return (
     <>
@@ -15,7 +38,15 @@ function App() {
         </div>
         <div id="previewSection">
           <h1>Preview</h1>
-
+            <div id="previewSlideshow">
+              <img src={titleScreenImg} id="titleScreen" width="600" height="400" alt="Title Screen Image"/>
+              <img src={characterSelectImg} id="characterSelect" width="600" height="400" alt="Character Select Image" />
+              <img src={gameScreen1Img} id="gameScreen1" width="600" height="400" alt="Game Screen 1 Image" />
+              <img src={gameScreen2Img} id="gameScreen2" width="600" height="400" alt="Game Screen 2 Image" />
+              <img src={optionsPageImg} id="optionsPage" width="600" height="400" alt="Options Page Image" />
+              <img src={rightButtonImg} onClick={() => nextPreviewImage(true, idList)} id="rightButton" width="75" height="150" alt="Right Button" />
+              <img src={leftButtonImg} onClick={() => nextPreviewImage(false, idList)} id="leftButton" width="75" height="150" alt="Left Button" />
+            </div>
         </div>
         <button
           type="button"

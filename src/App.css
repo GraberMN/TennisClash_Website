@@ -21,7 +21,6 @@
     position: relative;
     display: flex;
     margin: auto;
-    margin-top: 20px;
 }
 
 #center {
@@ -38,29 +37,82 @@
   }
 }
 
-#next-steps {
-  display: flex;
-  border-top: 1px solid var(--border);
-  text-align: left;
+.previewSection {
+    position: relative;
+    margin-top: -60px;
+}
 
-  & > div {
-    flex: 1 1 0;
-    padding: 32px;
+#titleScreen {
+    position: relative;
+    z-index: 5;
+    border: solid;
+    border-color: violet;
+    border-width: 4px;
+}
+
+#characterSelect, #gameScreen1, #gameScreen2, #optionsPage {
+    position: absolute;
+    display: flex;
+    top: 232px;
+    z-index: 4;
+    border: solid;
+    border-color: violet;
+    border-width: 4px;
+
     @media (max-width: 1024px) {
-      padding: 24px 20px;
+        top: 250px;
     }
-  }
+}
 
-  .icon {
-    margin-bottom: 16px;
-    width: 22px;
-    height: 22px;
-  }
+#rightButton, #leftButton {
+    position: absolute;
+    display: flex;
+    z-index: 6;
+    border: inset;
+    border-color: violet;
+    border-width: 3px;
+    top: 357px;
 
-  @media (max-width: 1024px) {
-    flex-direction: column;
-    text-align: center;
-  }
+    @media (max-width: 1024px) {
+        top: 375px;
+    }
+    &:hover {
+        border-color: cyan;
+    }
+}
+
+#rightButton {
+    margin-left: 564px;
+}
+
+#leftButton {
+    margin-left: -37px;
+}
+
+#next-steps {
+    display: flex;
+    border-top: 1px solid var(--border);
+    text-align: left;
+
+    & > div {
+        flex: 1 1 0;
+        padding: 32px;
+
+        @media (max-width: 1024px) {
+            padding: 24px 20px;
+        }
+    }
+
+    .icon {
+        margin-bottom: 16px;
+        width: 22px;
+        height: 22px;
+    }
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 #docs {
