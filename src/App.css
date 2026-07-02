@@ -1,20 +1,22 @@
-.counter {
-  font-size: 16px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: var(--accent);
-  background: var(--accent-bg);
-  border: 2px solid transparent;
-  transition: border-color 0.3s;
-  margin-bottom: 24px;
+.downloadButton {
+    font-size: 32px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: royalblue;
+    background: aliceblue;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+    margin-bottom: 24px;
 
-  &:hover {
-    border-color: var(--accent-border);
-  }
-  &:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
+    &:hover {
+        border-color: royalblue;
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+    }
 }
 
 .title {
@@ -40,6 +42,11 @@
 .previewSection {
     position: relative;
     margin-top: -60px;
+}
+
+#previewTitle {
+    color: royalblue;
+    font-weight: bold;
 }
 
 #titleScreen {

@@ -37,7 +37,7 @@ function App() {
           <img src={titleImg} width="600" height="133" alt="Tennis Clash" />
         </div>
         <div id="previewSection">
-          <h1>Preview</h1>
+          <h1 id="previewTitle">Preview</h1>
             <div id="previewSlideshow">
               <img src={titleScreenImg} id="titleScreen" width="600" height="400" alt="Title Screen Image"/>
               <img src={characterSelectImg} id="characterSelect" width="600" height="400" alt="Character Select Image" />
@@ -50,10 +50,10 @@ function App() {
         </div>
         <button
           type="button"
-          className="counter"
+          className="downloadButton"
           onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
+          Download
         </button>
       </section>
 
