@@ -48,13 +48,14 @@ function App() {
               <img src={leftButtonImg} onClick={() => nextPreviewImage(false, idList)} id="leftButton" width="75" height="150" alt="Left Button" />
             </div>
         </div>
-        <button
-          type="button"
-          className="downloadButton"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Download
-        </button>
+        <a href="TennisClash.zip" download="TennisClash.zip">
+          <button
+            type="button"
+            className="downloadButton"
+          >
+            Download
+          </button>
+        </a>
       </section>
 
       <div className="ticks"></div>
