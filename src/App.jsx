@@ -60,7 +60,7 @@ function App() {
 
       <div className="ticks"></div>
 
-      <section id="next-steps">
+          <section id="infoSection">
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
@@ -82,6 +82,7 @@ function App() {
             </li>
           </ul>
         </div>
+
         <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
