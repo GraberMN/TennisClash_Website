@@ -60,12 +60,12 @@ function App() {
 
       <div className="ticks"></div>
 
-          <section id="infoSection">
+      <section id="infoSection">
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>What It's All About</h2>
+          <h2>Download Instructions</h2>
           <p>Your questions, answered</p>
           <ul>
             <li>
