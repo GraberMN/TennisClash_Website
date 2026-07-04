@@ -61,12 +61,13 @@ function App() {
       <div className="ticks"></div>
 
       <section id="infoSection">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
+          <div id="downloadInstructions">
+          <svg id="icon1" role="presentation" aria-hidden="true">
+            <use href="/instructionsIcon.svg"></use>
           </svg>
           <h2>Download Instructions</h2>
           <p>Your questions, answered</p>
+
           <ul>
             <li>
               <a href="https://vite.dev/" target="_blank">
@@ -83,12 +84,12 @@ function App() {
           </ul>
         </div>
 
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
+        <div id="mySocials">
+          <svg id="icon2" role="presentation" aria-hidden="true">
+            <use href="/creatorIcon.svg"></use>
           </svg>
           <h2>Hey, It's Me, The Creator</h2>
-          <p>Join the Vite community</p>
+          <p>Mateo Graber</p>
           <ul>
             <li>
               <a href="https://github.com/vitejs/vite" target="_blank">
@@ -109,9 +110,9 @@ function App() {
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#discord-icon"></use>
+                  <use href="/linkedinLogo.svg"></use>
                 </svg>
-                Discord
+                LinkedIn
               </a>
             </li>
             <li>
@@ -123,7 +124,7 @@ function App() {
                 >
                   <use href="/icons.svg#x-icon"></use>
                 </svg>
-                X.com
+                X/Twitter
               </a>
             </li>
             <li>
@@ -133,9 +134,9 @@ function App() {
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#bluesky-icon"></use>
+                  <use href="/facebookLogo.svg"></use>
                 </svg>
-                Bluesky
+                Facebook
               </a>
             </li>
           </ul>

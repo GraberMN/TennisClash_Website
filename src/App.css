@@ -115,7 +115,13 @@
         }
     }
 
-    .icon {
+    #icon1 {
+        margin-bottom: 16px;
+        width: 22px;
+        height: 22px;
+    }
+
+    #icon2 {
         margin-bottom: 16px;
         width: 22px;
         height: 22px;
@@ -127,7 +133,7 @@
     }
 }
 
-#docs {
+#downloadInstructions {
     border-right: none;
     border-bottom: 1px solid var(--border);
 }

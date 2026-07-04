@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="18" height="18">
+	<defs>
+		<image  width="18" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAMAAAAs2N9uAAAAAXNSR0IB2cksfwAAAL1QTFRFKGeyKGeyKGeyKGeyAAAAKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKGeyKtPlXAAAAD90Uk5Txf/zPgD99G2yULNu8UpMsE6x583b2vLQq8lsDQg/A3YTWCzqc7iV1saWl9fImNjK/uLMz+v39fxiUWZlGRsYcuhWnQAAAKJJREFUeJxl0EsLAVEYxvH34ZCOhaSmDAtpZnKNZOP7L6WQ26ShZuFaKItpynQcC9M7/OvZ/JYPCMQCoEcC6hVbNtIk0kAQkww15RHIZ5KEBB5JoiLUvYRPpy+VL8bR1HCgis/pXAV8M7PjVPOsPRVunOpbxyPL5WRv/shZt1xqLDk1F90VtefSnmnqQ00HKjUZRiTGshPCuPInerkJYfR7Dt4F3kW1rq28TQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="linkedinLogo" href="#img1" x="0" y="1"/>
+</svg>
