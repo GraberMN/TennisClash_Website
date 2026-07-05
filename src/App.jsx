@@ -38,14 +38,14 @@ function App() {
         </div>
         <div id="previewSection">
           <h1 id="previewTitle">Preview</h1>
-            <div id="previewSlideshow">
-              <img src={titleScreenImg} id="titleScreen" width="600" height="400" alt="Title Screen Image"/>
-              <img src={characterSelectImg} id="characterSelect" width="600" height="400" alt="Character Select Image" />
-              <img src={gameScreen1Img} id="gameScreen1" width="600" height="400" alt="Game Screen 1 Image" />
-              <img src={gameScreen2Img} id="gameScreen2" width="600" height="400" alt="Game Screen 2 Image" />
-              <img src={optionsPageImg} id="optionsPage" width="600" height="400" alt="Options Page Image" />
-              <img src={rightButtonImg} onClick={() => nextPreviewImage(true, idList)} id="rightButton" width="75" height="150" alt="Right Button" />
-              <img src={leftButtonImg} onClick={() => nextPreviewImage(false, idList)} id="leftButton" width="75" height="150" alt="Left Button" />
+          <div id="previewSlideshow">
+            <img src={titleScreenImg} id="titleScreen" width="600" height="400" alt="Title Screen Image"/>
+            <img src={characterSelectImg} id="characterSelect" width="600" height="400" alt="Character Select Image" />
+            <img src={gameScreen1Img} id="gameScreen1" width="600" height="400" alt="Game Screen 1 Image" />
+            <img src={gameScreen2Img} id="gameScreen2" width="600" height="400" alt="Game Screen 2 Image" />
+            <img src={optionsPageImg} id="optionsPage" width="600" height="400" alt="Options Page Image" />
+            <img src={rightButtonImg} onClick={() => nextPreviewImage(true, idList)} id="rightButton" width="75" height="150" alt="Right Button" />
+            <img src={leftButtonImg} onClick={() => nextPreviewImage(false, idList)} id="leftButton" width="75" height="150" alt="Left Button" />
             </div>
         </div>
         <a href="TennisClash.zip" download="TennisClash.zip">
@@ -83,7 +83,6 @@ function App() {
             </li>
           </ul>
         </div>
-
         <div id="mySocials">
           <svg id="icon2" role="presentation" aria-hidden="true">
             <use href="/creatorIcon.svg"></use>
@@ -92,7 +91,7 @@ function App() {
           <p>Mateo Graber</p>
           <ul>
             <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
+              <a href="https://github.com/GraberMN" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -104,7 +103,7 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://chat.vite.dev/" target="_blank">
+              <a href="https://www.linkedin.com/in/mateo-g-33a20230b/" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -116,19 +115,19 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://x.com/vite_js" target="_blank">
+              <a href="https://www.instagram.com/mayothebrotho" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#x-icon"></use>
+                  <use href="/instagramLogo.svg"></use>
                 </svg>
-                X/Twitter
+                Instagram
               </a>
             </li>
             <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
+              <a href="https://www.facebook.com/profile.php?id=100086580240269" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
