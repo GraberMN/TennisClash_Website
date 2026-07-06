@@ -68,7 +68,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Comic Sans MS';
   font-weight: 500;
   color: var(--text-h);
@@ -77,6 +78,7 @@ h2 {
 h1 {
     font-size: 36px;
     letter-spacing: -1.68px;
+    font-weight: bold;
 
     @media (max-width: 1024px) {
         font-size: 32px;
@@ -87,10 +89,21 @@ h2 {
   line-height: 118%;
   letter-spacing: -0.24px;
   font-weight: bold;
-  margin: 0 0 8px;
+  margin: 28px 0 8px 0;
   @media (max-width: 1024px) {
     font-size: 20px;
   }
+}
+h3 {
+    font-size: 20px;
+    line-height: 118%;
+    letter-spacing: -0.24px;
+    font-weight: bold;
+    margin: 24px 0 8px 0;
+
+    @media (max-width: 1024px) {
+        font-size: 16px;
+    }
 }
 p {
   margin: 0;

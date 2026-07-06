@@ -65,29 +65,26 @@ function App() {
           <svg id="icon1" role="presentation" aria-hidden="true">
             <use href="/instructionsIcon.svg"></use>
           </svg>
-          <h2>Download Instructions</h2>
+          <h1>Download & Play Instructions</h1>
           <p>Your questions, answered</p>
-
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+          <h2>Video Guide</h2>
+          <video width="600" height="400" controls>
+            
+          </video>
+          <h2>Written Guide</h2>
+          <p>1) Click the Download button above, and go to Downloads in File Explorer.</p>
+          <p>2) Extract "TennisClash.zip" into Downloads or wherever you want.ㅤㅤㅤㅤ</p>
+          <p>3) Find and go into the extracted folder, and follow this path:ㅤㅤㅤㅤㅤㅤ&#8287;</p>
+          <p>TennisClash -&gt; out -&gt; build -&gt; x64-debug-user -&gt; TennisClashㅤㅤㅤ</p>
+          <p>4) Right click on "TennisClash.exe", and then click Show more options -&gt;ㅤ</p>
+                  <p>Send to ... Desktop (create shortcut)ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+          <p>5) Go to your Desktop, and open up the new shortcut icon. Have fun!ㅤㅤ</p>
         </div>
         <div id="mySocials">
           <svg id="icon2" role="presentation" aria-hidden="true">
             <use href="/creatorIcon.svg"></use>
           </svg>
-          <h2>Hey, It's Me, The Creator</h2>
+          <h1>Hey, It's Me, The Creator</h1>
           <p>Mateo Graber</p>
           <ul>
             <li>
