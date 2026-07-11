@@ -61,7 +61,7 @@ function App() {
       <div className="ticks"></div>
 
       <section id="infoSection">
-          <div id="downloadInstructions">
+        <div id="downloadInstructions">
           <svg id="icon1" role="presentation" aria-hidden="true">
             <use href="/instructionsIcon.svg"></use>
           </svg>
@@ -77,9 +77,10 @@ function App() {
           <p>3) Find and go into the extracted folder, and follow this path:ㅤㅤㅤㅤㅤㅤ&#8287;</p>
           <p>TennisClash -&gt; out -&gt; build -&gt; x64-debug-user -&gt; TennisClashㅤㅤㅤ</p>
           <p>4) Right click on "TennisClash.exe", and then click Show more options -&gt;ㅤ</p>
-                  <p>Send to ... Desktop (create shortcut)ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+          <p>Send to ... Desktop (create shortcut)ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
           <p>5) Go to your Desktop, and open up the new shortcut icon. Have fun!ㅤㅤ</p>
         </div>
+
         <div id="mySocials">
           <svg id="icon2" role="presentation" aria-hidden="true">
             <use href="/creatorIcon.svg"></use>
@@ -140,7 +141,10 @@ function App() {
       </section>
 
       <div className="ticks"></div>
-      <section id="spacer"></section>
+
+      <section id="spacer">
+        <div id="copyright"> © 2026 Mateo Graber. All rights reserved. </div>
+      </section>
     </>
   )
 }
