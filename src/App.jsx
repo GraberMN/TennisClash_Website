@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+import { Analytics } from '@vercel/analytics/react';
 import titleImg from './assets/title.png'
 import titleScreenImg from './assets/titleScreenSS.png'
 import characterSelectImg from './assets/characterSelectSS.png'
@@ -145,6 +144,7 @@ function App() {
       <section id="spacer">
         <div id="copyright"> © 2026 Mateo Graber. All rights reserved. </div>
       </section>
+      <Analytics />
     </>
   )
 }
