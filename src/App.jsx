@@ -77,7 +77,8 @@ function App() {
           <p>TennisClash -&gt; out -&gt; build -&gt; x64-debug-user -&gt; TennisClashㅤㅤㅤ</p>
           <p>4) Right click on "TennisClash.exe", and then click Show more options -&gt;ㅤ</p>
           <p>Send to ... Desktop (create shortcut)ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
-          <p>5) Go to your Desktop, and open up the new shortcut icon. Have fun!ㅤㅤ</p>
+          <p>5) Go to your Desktop, and open up the new shortcut icon. Have fun!ㅤ&#8287;&#8287;&#8287;&#8287;&#8287;&#8287;</p>
+          <p>6?) You may need to bypass Windows' safety check the first time, that's it!&#8287;</p>
         </div>
 
         <div id="mySocials">
