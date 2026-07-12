@@ -47,7 +47,7 @@ function App() {
             <img src={leftButtonImg} onClick={() => nextPreviewImage(false, idList)} id="leftButton" width="75" height="150" alt="Left Button" />
             </div>
         </div>
-        <a href="./TennisClash.zip" download="TennisClash.zip">
+              <a href="./var/www/html/TennisClash.zip" download="TennisClash.zip">
           <button
             type="button"
             className="downloadButton"
