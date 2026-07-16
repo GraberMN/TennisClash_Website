@@ -47,7 +47,7 @@ function App() {
             <img src={leftButtonImg} onClick={() => nextPreviewImage(false, idList)} id="leftButton" width="75" height="150" alt="Left Button" />
             </div>
         </div>
-              <a href="TennisClash.zip" download="TennisClash.zip">
+        <a href="TennisClash.zip" download="TennisClash.zip">
           <button
             type="button"
             className="downloadButton"
@@ -68,7 +68,9 @@ function App() {
           <p>Your questions, answered</p>
           <h2>Video Guide</h2>
           <video width="600" height="400" controls>
-            
+            <source src="tcVideoGuide.mp4" type="video/mp4" />
+            <source src="tcVideoGuide.ogg" type="video/ogg" />
+            Your browser does not support the video tag
           </video>
           <h2>Written Guide</h2>
           <p>1) Click the Download button above, and go to Downloads in File Explorer.</p>
