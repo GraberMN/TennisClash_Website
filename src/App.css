@@ -48,11 +48,6 @@
     margin-top: -60px;
 }
 
-#previewTitle {
-    color: black;
-    font-weight: bold;
-}
-
 #titleScreen {
     position: relative;
     z-index: 5;
